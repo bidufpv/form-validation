@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(4, 108, 86, 0.727);
+}
+#form{
+    width: 500px;
+    margin: 20vh auto 0 auto;
+    padding: 10px;
+    background-color: aquamarine;
+    border-radius: 10px;
+    font-size: 15px;
+}
+#form h2{
+    color: rgba(6, 4, 91, 0.596);
+    text-align: center;
+    border-bottom: 1px solid rgba(6, 4, 91, 0.596);
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+.form-control input{
+    border: 1.5px solid rgba(15, 87, 88, 0.501);
+    border-radius: 5px;
+    display: block;
+    font-size: 15px;
+    width: 100%;
+    padding: 5px;
+}
+#form #btn{
+    font-size: 15px;
+    font-weight: 700;
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    background-color: rgba(24, 154, 126, 0.555) ;
+    border: none;
+    color: rgb(7, 66, 86);
+    border-radius: 5px;
+    /* cursor: pointer; */
+}
+.form-control .error{
+    color: red;
+    font-size: 14px;
+    height: 10px;
+    margin: 5px;
+}
+.form-control.Success input{
+    border-color: green;
+    
+}
+.form-control.error input{
+    border-color: red;
+}
